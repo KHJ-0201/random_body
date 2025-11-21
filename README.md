@@ -1,2 +1,31 @@
-# random_body
-랜덤문제 풀기 차체
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버전 선택 페이지 (인증)</title>
+    <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+    
+    
+    
+    <div id="pageContent">
+        <div class="container">
+            <h1>원하는 버전을 선택하세요</h1>
+            <div class="banner-wrapper">
+                <div id="pcBanner" class="banner pc-color">
+                    <h2>🖥️ PC 버전</h2>
+                    <p>넓은 화면에 최적화된 레이아웃</p>
+                </div>
+                <div id="mobileBanner" class="banner mobile-color">
+                    <h2>📱 모바일 버전</h2>
+                    <p>스마트폰 화면에 최적화된 레이아웃</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script> 
+</body>
+</html>
